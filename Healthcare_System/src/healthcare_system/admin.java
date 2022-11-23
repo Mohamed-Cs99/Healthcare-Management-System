@@ -19,6 +19,16 @@ public class admin extends User{
     {
         pt.add(p); 
     }
+    public void deleteDoctor(doctor d )
+    {
+        doc.remove(d); 
+    }
+    
+    public void deletePatient(patient p)
+    {
+        pt.remove(p); 
+    }
+    
     public void displayAllDoctors()
     {
         for(int i = 0 ; i<doc.size(); i++)
